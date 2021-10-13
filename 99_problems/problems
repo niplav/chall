@@ -659,6 +659,7 @@ given as test cases in p54.lisp.
        syntax (BNF or syntax diagrams) and then write a predicate
        tree-dotstring/2 which does the conversion in both directions.
        Use difference lists.
+
 Multiway Trees
 A multiway tree is composed of a root element and
 a (possibly empty) set of successors which are multiway trees
@@ -736,6 +737,7 @@ T = t(a,[t(f,[t(g,[])]),t(c,[]),t(b,[t(d,[]),t(e,[])])])
    tree-ltl/2 in a way that the inverse conversion is also
    possible: Given the list LTL, construct the Prolog tree T.
    Use difference lists.
+
 Graphs
 A graph is defined as a set of nodes
 and a set of edges, where each edge is a pair of nodes.
